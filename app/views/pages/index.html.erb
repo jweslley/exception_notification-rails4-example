@@ -1,0 +1,15 @@
+<h1>ExceptionNotificationRails4Example</h1>
+
+<% if alert %>
+  <p style="margin:10px; padding:10px; background-color:red">
+    <%= alert %>
+  </p>
+<% end %>
+
+<p>
+  Everything is fine! Now, lets break things clicking <%= link_to "here", root_url(error: 'BOOOOO!!!') %>. Dont forget to see the emails at <a href="http://localhost:1080">mailcatcher</a> !
+</p>
+
+<p>
+  Click <%= link_to 'here', bg_url %> to force a background_notification.
+</p>

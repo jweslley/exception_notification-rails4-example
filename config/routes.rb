@@ -1,4 +1,8 @@
 ExceptionNotificationRails4Example::Application.routes.draw do
+
+  get 'bg' => 'pages#background_notification'
+  root 'pages#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
