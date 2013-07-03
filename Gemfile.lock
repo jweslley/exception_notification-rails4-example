@@ -39,6 +39,9 @@ GEM
     dotenv (0.8.0)
     erubis (2.7.0)
     eventmachine (1.0.3)
+    exception_notification (4.0.0.rc1)
+      actionmailer (>= 3.0.4)
+      activesupport (>= 3.0.4)
     execjs (1.4.0)
       multi_json (~> 1.0)
     foreman (0.63.0)
@@ -143,6 +146,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  exception_notification (= 4.0.0.rc1)
   foreman
   jbuilder (~> 1.2)
   jquery-rails
